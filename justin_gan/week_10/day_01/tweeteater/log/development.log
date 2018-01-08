@@ -929,3 +929,419 @@ Migrating to CreateTweets (20180108032910)
   [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweets"[0m
+  [1m[36mUser Load (3.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTweet Load (1.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweets"[0m
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTweet Load (1.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweets"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweets"[0m
+  [1m[36mTweet Load (1.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @UnsleevedMedia: Read this &amp; share this!  \nhttps://t.co/DTHwDPwrO7 https://t.co/MrI3nvlXb8"], ["created_at", "2018-01-08 05:09:29.177508"], ["updated_at", "2018-01-08 05:09:29.177508"]]
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @stillgray: Magic: The Gathering has a pedophile problem. It's the biggest story in gaming that no one in the media will talk about. htt…"], ["created_at", "2018-01-08 05:09:29.220715"], ["updated_at", "2018-01-08 05:09:29.220715"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Stephen Miller is what would happen if Goebbels played Magic: The Gathering. Please shut the fuck up always"], ["created_at", "2018-01-08 05:09:29.225742"], ["updated_at", "2018-01-08 05:09:29.225742"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@Richelle_Renae @Timberwvlf *dies of suffocation, stifled by a half-ton of Magic the Gathering cards*"], ["created_at", "2018-01-08 05:09:29.228683"], ["updated_at", "2018-01-08 05:09:29.228683"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "1993 93 MTG MAGIC THE GATHERING UNLIMITED 3rd Ed EDITION P9 POWER NINE  1 OF 23! https://t.co/wsWlZCCzlG"], ["created_at", "2018-01-08 05:09:29.231688"], ["updated_at", "2018-01-08 05:09:29.231688"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @cruellski: Do you want to hear a joke?\n\nWhat do Magic The Gathering and the US Sex Offenders Register have in common?\n\nA lot of people!…"], ["created_at", "2018-01-08 05:09:29.235012"], ["updated_at", "2018-01-08 05:09:29.235012"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @HopeStillFlies: Don't want to throw names out there, but there is a real correlation with Magic: The Gathering and hiding predators.\n\nW…"], ["created_at", "2018-01-08 05:09:29.238991"], ["updated_at", "2018-01-08 05:09:29.238991"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @Lubchansky: a guy at this restaurant is loudly complaining the way a jock dad would about his wuss kid sucking at sports, but about his…"], ["created_at", "2018-01-08 05:09:29.243101"], ["updated_at", "2018-01-08 05:09:29.243101"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @stillgray: Magic: The Gathering has a pedophile problem. It's the biggest story in gaming that no one in the media will talk about. htt…"], ["created_at", "2018-01-08 05:09:29.246532"], ["updated_at", "2018-01-08 05:09:29.246532"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @Lubchansky: a guy at this restaurant is loudly complaining the way a jock dad would about his wuss kid sucking at sports, but about his…"], ["created_at", "2018-01-08 05:09:29.250098"], ["updated_at", "2018-01-08 05:09:29.250098"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "sorry boss gonna be in late. yeah, you know, magic the gathering got a lit-tle crazy last night"], ["created_at", "2018-01-08 05:09:29.253123"], ["updated_at", "2018-01-08 05:09:29.253123"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Is there a Magic the Gathering Pro I can play so I can learn the game by actually playing it myself?"], ["created_at", "2018-01-08 05:09:29.256897"], ["updated_at", "2018-01-08 05:09:29.256897"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "I liked a @YouTube video https://t.co/oNhdnIVKAr Ways to Play Magic: The Gathering"], ["created_at", "2018-01-08 05:09:29.260836"], ["updated_at", "2018-01-08 05:09:29.260836"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @Lubchansky: a guy at this restaurant is loudly complaining the way a jock dad would about his wuss kid sucking at sports, but about his…"], ["created_at", "2018-01-08 05:09:29.264047"], ["updated_at", "2018-01-08 05:09:29.264047"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "listened to the latest ep of @thefplus with beelz and co. she wanted some inspiration i guess. i came up with this… https://t.co/KQLpzwXXhb"], ["created_at", "2018-01-08 05:09:29.267033"], ["updated_at", "2018-01-08 05:09:29.267033"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @stillgray: For all the aggressive posturing and virtue signaling over how women need to be safe from harm at Magic: The Gathering tourn…"], ["created_at", "2018-01-08 05:09:29.270120"], ["updated_at", "2018-01-08 05:09:29.270120"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Борьба за Иксалан - обзор аналитика советы новому выпуску Magic: The Gathering Rivals of"], ["created_at", "2018-01-08 05:09:29.273375"], ["updated_at", "2018-01-08 05:09:29.273375"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Видео \"Борьба за Иксалан - обзор аналитика советы новому выпуску Magic: The Gathering"], ["created_at", "2018-01-08 05:09:29.276414"], ["updated_at", "2018-01-08 05:09:29.276414"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "I guess 2018 is the year I unironically get into Magic The Gathering"], ["created_at", "2018-01-08 05:09:29.279390"], ["updated_at", "2018-01-08 05:09:29.279390"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "I liked a @YouTube video https://t.co/9oAmADimZs Super Tutorial 5000 - How To Play Magic: The Gathering"], ["created_at", "2018-01-08 05:09:29.282712"], ["updated_at", "2018-01-08 05:09:29.282712"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @UnsleevedMedia: Read this &amp; share this!  \nhttps://t.co/DTHwDPwrO7 https://t.co/MrI3nvlXb8"], ["created_at", "2018-01-08 05:09:29.285600"], ["updated_at", "2018-01-08 05:09:29.285600"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @Lubchansky: a guy at this restaurant is loudly complaining the way a jock dad would about his wuss kid sucking at sports, but about his…"], ["created_at", "2018-01-08 05:09:29.288403"], ["updated_at", "2018-01-08 05:09:29.288403"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @Lubchansky: a guy at this restaurant is loudly complaining the way a jock dad would about his wuss kid sucking at sports, but about his…"], ["created_at", "2018-01-08 05:09:29.291650"], ["updated_at", "2018-01-08 05:09:29.291650"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @stillgray: Magic: The Gathering has a pedophile problem. It's the biggest story in gaming that no one in the media will talk about. htt…"], ["created_at", "2018-01-08 05:09:29.294686"], ["updated_at", "2018-01-08 05:09:29.294686"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Who's a Magic: The Gathering pro? https://t.co/0PUtbNuDgp https://t.co/aBowdOnv64"], ["created_at", "2018-01-08 05:09:29.297381"], ["updated_at", "2018-01-08 05:09:29.297381"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "I liked a @YouTube video https://t.co/oX0fbe2lbr Magic: The Gathering-Gate? A Talk with The Quartering"], ["created_at", "2018-01-08 05:09:29.300195"], ["updated_at", "2018-01-08 05:09:29.300195"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @Lubchansky: a guy at this restaurant is loudly complaining the way a jock dad would about his wuss kid sucking at sports, but about his…"], ["created_at", "2018-01-08 05:09:29.303306"], ["updated_at", "2018-01-08 05:09:29.303306"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "#Magic the gathering and some #Pastel #hotchocolate 💜🎀🍬🍫☕️ #candy #card #magicthegathering… https://t.co/yVwi1GYwaD"], ["created_at", "2018-01-08 05:09:29.306754"], ["updated_at", "2018-01-08 05:09:29.306754"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@MoistCr1TiKaL @HuggbeesTLN @kayaorsan @zealotonpc can I be a guest on The Official Podcast? I'm a fan of Magic the… https://t.co/JT6VepWd1J"], ["created_at", "2018-01-08 05:09:29.310084"], ["updated_at", "2018-01-08 05:09:29.310084"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @stillgray: For all the aggressive posturing and virtue signaling over how women need to be safe from harm at Magic: The Gathering tourn…"], ["created_at", "2018-01-08 05:09:29.313968"], ["updated_at", "2018-01-08 05:09:29.313968"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Affinity, by Casey Welch - A Magic: the Gathering Deck https://t.co/gGDESHfM1L\nクラシックの方だと親和が優勝しとりますね"], ["created_at", "2018-01-08 05:09:29.317177"], ["updated_at", "2018-01-08 05:09:29.317177"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "I liked a @YouTube video https://t.co/CrO1k35vxg Iconic Masters with Wedge and The Professor | Game Knights #12 l Magic the Gathering"], ["created_at", "2018-01-08 05:09:29.319856"], ["updated_at", "2018-01-08 05:09:29.319856"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Magic The Gathering Has A Player Safety Issue #mtg #goldenglobes \nhttps://t.co/X81gBqR5Kj via @YouTube"], ["created_at", "2018-01-08 05:09:29.322460"], ["updated_at", "2018-01-08 05:09:29.322460"]]
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Rivals of Ixalan Preview &amp; Deck Tech - Zacama | The Command Zone #192 | Magic the Gathering: https://t.co/lTkXQ8NW2a"], ["created_at", "2018-01-08 05:09:29.331682"], ["updated_at", "2018-01-08 05:09:29.331682"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@eatyourkimchi super important question: do either of you/have either of you ever played Magic the Gathering?"], ["created_at", "2018-01-08 05:09:29.335887"], ["updated_at", "2018-01-08 05:09:29.335887"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Who like magic the gathering?"], ["created_at", "2018-01-08 05:09:29.340802"], ["updated_at", "2018-01-08 05:09:29.340802"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @HopeStillFlies: Don't want to throw names out there, but there is a real correlation with Magic: The Gathering and hiding predators.\n\nW…"], ["created_at", "2018-01-08 05:09:29.344183"], ["updated_at", "2018-01-08 05:09:29.344183"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @stillgray: Magic: The Gathering has a pedophile problem. It's the biggest story in gaming that no one in the media will talk about. htt…"], ["created_at", "2018-01-08 05:09:29.347102"], ["updated_at", "2018-01-08 05:09:29.347102"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "You can now PRE-ORDER a complete playset of Rivals of Ixalan commons &amp; uncommons. Pick up in store or we ship out f… https://t.co/aJZmLJLIsg"], ["created_at", "2018-01-08 05:09:29.350873"], ["updated_at", "2018-01-08 05:09:29.350873"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @stillgray: Magic: The Gathering has a pedophile problem. It's the biggest story in gaming that no one in the media will talk about. htt…"], ["created_at", "2018-01-08 05:09:29.354854"], ["updated_at", "2018-01-08 05:09:29.354854"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "I am experimenting with Silly Putty and Magic the Gathering commons. FOR SCIENCE! https://t.co/res6kTazDa"], ["created_at", "2018-01-08 05:09:29.357690"], ["updated_at", "2018-01-08 05:09:29.357690"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @cruellski: Do you want to hear a joke?\n\nWhat do Magic The Gathering and the US Sex Offenders Register have in common?\n\nA lot of people!…"], ["created_at", "2018-01-08 05:09:29.360929"], ["updated_at", "2018-01-08 05:09:29.360929"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @stillgray: Magic: The Gathering has a pedophile problem. It's the biggest story in gaming that no one in the media will talk about. htt…"], ["created_at", "2018-01-08 05:09:29.364045"], ["updated_at", "2018-01-08 05:09:29.364045"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @Lubchansky: a guy at this restaurant is loudly complaining the way a jock dad would about his wuss kid sucking at sports, but about his…"], ["created_at", "2018-01-08 05:09:29.366568"], ["updated_at", "2018-01-08 05:09:29.366568"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @UnsleevedMedia: Read this &amp; share this!  \nhttps://t.co/DTHwDPwrO7 https://t.co/MrI3nvlXb8"], ["created_at", "2018-01-08 05:09:29.369459"], ["updated_at", "2018-01-08 05:09:29.369459"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Just because Magic The Gathering, YuGiO and Pokemon exist does not mean there isn't room for more 1 on 1 combat CCGs. YES or NO"], ["created_at", "2018-01-08 05:09:29.372683"], ["updated_at", "2018-01-08 05:09:29.372683"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "I liked a @YouTube video https://t.co/yEbBNCp2fX Pauper Burn Deck Tech - A Guide for Magic: The Gathering"], ["created_at", "2018-01-08 05:09:29.376701"], ["updated_at", "2018-01-08 05:09:29.376701"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @Lubchansky: a guy at this restaurant is loudly complaining the way a jock dad would about his wuss kid sucking at sports, but about his…"], ["created_at", "2018-01-08 05:09:29.380489"], ["updated_at", "2018-01-08 05:09:29.380489"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @stillgray: For all the aggressive posturing and virtue signaling over how women need to be safe from harm at Magic: The Gathering tourn…"], ["created_at", "2018-01-08 05:09:29.383815"], ["updated_at", "2018-01-08 05:09:29.383815"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @stillgray: Magic: The Gathering has a pedophile problem. It's the biggest story in gaming that no one in the media will talk about. htt…"], ["created_at", "2018-01-08 05:09:29.386698"], ["updated_at", "2018-01-08 05:09:29.386698"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweets"[0m
+  [1m[36mTweet Load (1.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @gmcfosho: today is the last day i talk to any of my friends https://t.co/ZsRi3ZKBqp"], ["created_at", "2018-01-08 05:38:19.782021"], ["updated_at", "2018-01-08 05:38:19.782021"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@gmcfosho @Dogysamich I can't help but think about how much fun it must have been to record and edit these videos. This is great."], ["created_at", "2018-01-08 05:38:19.817987"], ["updated_at", "2018-01-08 05:38:19.817987"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@Dogysamich @Crippeh a dark weekend awaits"], ["created_at", "2018-01-08 05:38:19.821711"], ["updated_at", "2018-01-08 05:38:19.821711"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@gmcfosho I'm introducing my homie @Crippeh to some of your not-widely-known jammies, yo. Gotta make sure you're worldwide!"], ["created_at", "2018-01-08 05:38:19.825786"], ["updated_at", "2018-01-08 05:38:19.825786"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "I love everything this man makes https://t.co/0M9cvXOkKa"], ["created_at", "2018-01-08 05:38:19.829773"], ["updated_at", "2018-01-08 05:38:19.829773"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@whoupdoe @ByronPoindexte2 @TroydanGaming @andre we out here exploitin da death of a nig"], ["created_at", "2018-01-08 05:38:19.833086"], ["updated_at", "2018-01-08 05:38:19.833086"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@Rezulux time is 1 continuess line"], ["created_at", "2018-01-08 05:38:19.836712"], ["updated_at", "2018-01-08 05:38:19.836712"]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "gmcfosho top 2 strongest anime character all time"], ["created_at", "2018-01-08 05:38:19.842332"], ["updated_at", "2018-01-08 05:38:19.842332"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@ByronPoindexte2 @TroydanGaming @andre gmcfosho. watch Rifle Burs by him it's a classic"], ["created_at", "2018-01-08 05:38:19.846557"], ["updated_at", "2018-01-08 05:38:19.846557"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "mc ride and gmcfosho are the same person from different timelines"], ["created_at", "2018-01-08 05:38:19.850973"], ["updated_at", "2018-01-08 05:38:19.850973"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "かけるくんから教えてもらった12th Planetすごいな\n\"12TH PLANET, SKRILLEX &amp; KILL THE NOISE -- BURST feat. GMCFOSHO\"  https://t.co/7d1PVk0Per"], ["created_at", "2018-01-08 05:38:19.855367"], ["updated_at", "2018-01-08 05:38:19.855367"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@gmcfosho HOLY SHIT AIGHT THANKS MAN IM FINNA MAKE MY OWN YT CHANNEL RIGHT NOW"], ["created_at", "2018-01-08 05:38:19.860355"], ["updated_at", "2018-01-08 05:38:19.860355"]]
+  [1m[35m (8.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@ayyitsio Whachu worryin about? just upload shit. Let go b4 u get arthritis."], ["created_at", "2018-01-08 05:38:19.871840"], ["updated_at", "2018-01-08 05:38:19.871840"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Gmcfosho getting groovy with The Mountain Goats in a groovy style, produced by El-P"], ["created_at", "2018-01-08 05:38:19.877562"], ["updated_at", "2018-01-08 05:38:19.877562"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@gmcfosho Ey man. You probably won’t answer this but I’m tryna be a YouTuber (the kind that uploads random shit but… https://t.co/iTicSJ0kbs"], ["created_at", "2018-01-08 05:38:19.882376"], ["updated_at", "2018-01-08 05:38:19.882376"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@gmcfosho sed nigga are u dead?"], ["created_at", "2018-01-08 05:38:19.886693"], ["updated_at", "2018-01-08 05:38:19.886693"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@AlecGiannakop https://t.co/sPgFTEN1ig"], ["created_at", "2018-01-08 05:38:19.890362"], ["updated_at", "2018-01-08 05:38:19.890362"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @httpickles: Y'all giving Jake and Logan Paul attention but sleeping on GMCFOSHO"], ["created_at", "2018-01-08 05:38:19.893018"], ["updated_at", "2018-01-08 05:38:19.893018"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @httpickles: Y'all giving Jake and Logan Paul attention but sleeping on GMCFOSHO"], ["created_at", "2018-01-08 05:38:19.896454"], ["updated_at", "2018-01-08 05:38:19.896454"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @httpickles: Y'all giving Jake and Logan Paul attention but sleeping on GMCFOSHO"], ["created_at", "2018-01-08 05:38:19.903114"], ["updated_at", "2018-01-08 05:38:19.903114"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@httpickles we all took part in makin dis world what it is"], ["created_at", "2018-01-08 05:38:19.908099"], ["updated_at", "2018-01-08 05:38:19.908099"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Lit lol https://t.co/OG9SasTdBk"], ["created_at", "2018-01-08 05:38:19.912156"], ["updated_at", "2018-01-08 05:38:19.912156"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@CamoDizzy i be peepin"], ["created_at", "2018-01-08 05:38:19.916408"], ["updated_at", "2018-01-08 05:38:19.916408"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Y'all giving Jake and Logan Paul attention but sleeping on GMCFOSHO"], ["created_at", "2018-01-08 05:38:19.919875"], ["updated_at", "2018-01-08 05:38:19.919875"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@gmcfosho peep bro !"], ["created_at", "2018-01-08 05:38:19.923638"], ["updated_at", "2018-01-08 05:38:19.923638"]]
+  [1m[35m (6.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @tom_hanks420: I think my fav @gmcfosho line is \"stepped up out that womb like yes i do need that coat hanger\""], ["created_at", "2018-01-08 05:38:19.932897"], ["updated_at", "2018-01-08 05:38:19.932897"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "I think my fav @gmcfosho line is \"stepped up out that womb like yes i do need that coat hanger\""], ["created_at", "2018-01-08 05:38:19.937044"], ["updated_at", "2018-01-08 05:38:19.937044"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@gmcfosho Gotcha, well we'd love to have you here Dabes."], ["created_at", "2018-01-08 05:38:19.940300"], ["updated_at", "2018-01-08 05:38:19.940300"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @gmcfosho: shout out to all my niggas finally coming up out the hyperbolic chamber sayin', \"new year, new me.\" http://t.co/2dJX35OHlH"], ["created_at", "2018-01-08 05:38:19.945303"], ["updated_at", "2018-01-08 05:38:19.945303"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@rosemarywitch &gt;gmcfosho\n\nFUCKING NICE"], ["created_at", "2018-01-08 05:38:19.948861"], ["updated_at", "2018-01-08 05:38:19.948861"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@MatityahuRich i'm no fan of public spaces"], ["created_at", "2018-01-08 05:38:19.952795"], ["updated_at", "2018-01-08 05:38:19.952795"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@gmcfosho How much to book you to do a show in Denver?"], ["created_at", "2018-01-08 05:38:19.956080"], ["updated_at", "2018-01-08 05:38:19.956080"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @gmcfosho: @TomasOfLangland  https://t.co/dvkoiuPnPB"], ["created_at", "2018-01-08 05:38:19.959867"], ["updated_at", "2018-01-08 05:38:19.959867"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@TomasOfLangland  https://t.co/dvkoiuPnPB"], ["created_at", "2018-01-08 05:38:19.963100"], ["updated_at", "2018-01-08 05:38:19.963100"]]
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@gmcfosho is the goat of all time 😫👌😥😰💯😤🔥😣🙏 🇷🇺 https://t.co/fUpmTS0Z0Z"], ["created_at", "2018-01-08 05:38:19.970497"], ["updated_at", "2018-01-08 05:38:19.970497"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @gmcfosho: texted my dad, \"happy father's day,\" then sent this pic of me raising myself. https://t.co/gjzkW4h4td"], ["created_at", "2018-01-08 05:38:19.974540"], ["updated_at", "2018-01-08 05:38:19.974540"]]
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "A tisket ass tasstic. You got a butt basket. You don't need a Coke bottle body to be a classic.--gmcfosho"], ["created_at", "2018-01-08 05:38:19.983435"], ["updated_at", "2018-01-08 05:38:19.983435"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@ShawDawgy @gmcfosho I really miss my wiggaaa"], ["created_at", "2018-01-08 05:38:19.987533"], ["updated_at", "2018-01-08 05:38:19.987533"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@gmcfosho @TP4HUNNID Miss you my nigga"], ["created_at", "2018-01-08 05:38:19.991373"], ["updated_at", "2018-01-08 05:38:19.991373"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@gmcfosho @ShawDawgy Oh shit whaddup"], ["created_at", "2018-01-08 05:38:19.996321"], ["updated_at", "2018-01-08 05:38:19.996321"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@ShawDawgy @TP4HUNNID I am here."], ["created_at", "2018-01-08 05:38:20.000073"], ["updated_at", "2018-01-08 05:38:20.000073"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@TP4HUNNID @gmcfosho"], ["created_at", "2018-01-08 05:38:20.003177"], ["updated_at", "2018-01-08 05:38:20.003177"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@uhohafc @gmcfosho when he said “buddy whatchu eatin on” 😩😩😩 #whereishisgrammy"], ["created_at", "2018-01-08 05:38:20.007695"], ["updated_at", "2018-01-08 05:38:20.007695"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @uhohafc: @unicourtneyyy our man @GMCFOSHO always hittin me in the feels w his deep lyrics 😭😭😭 #snacksbuddy"], ["created_at", "2018-01-08 05:38:20.011357"], ["updated_at", "2018-01-08 05:38:20.011357"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@unicourtneyyy our man @GMCFOSHO always hittin me in the feels w his deep lyrics 😭😭😭 #snacksbuddy"], ["created_at", "2018-01-08 05:38:20.014424"], ["updated_at", "2018-01-08 05:38:20.014424"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "RT @gmcfosho: today is the last day i talk to any of my friends https://t.co/ZsRi3ZKBqp"], ["created_at", "2018-01-08 05:38:20.018437"], ["updated_at", "2018-01-08 05:38:20.018437"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@gmcfosho @novacholy @DankCommentary You the reallest Gil"], ["created_at", "2018-01-08 05:38:20.021562"], ["updated_at", "2018-01-08 05:38:20.021562"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "If you play \"Miss My Ni\" by gmcfosho at exactly 11:58:25pm on New Year's Eve, the first \"I... really miss ny nigga\"… https://t.co/fVC7CjlGkG"], ["created_at", "2018-01-08 05:38:20.024750"], ["updated_at", "2018-01-08 05:38:20.024750"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@Gabriellaaaa_7 Prolly"], ["created_at", "2018-01-08 05:38:20.033354"], ["updated_at", "2018-01-08 05:38:20.033354"]]
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "@gmcfosho You still live in Detroit? My brother and I looked you up because we think your videos are hilarious and… https://t.co/QUofY18UOC"], ["created_at", "2018-01-08 05:38:20.042688"], ["updated_at", "2018-01-08 05:38:20.042688"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweets"[0m
