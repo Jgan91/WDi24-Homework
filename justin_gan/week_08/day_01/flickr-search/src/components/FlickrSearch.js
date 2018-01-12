@@ -44,8 +44,8 @@ class FlickrSearch extends PureComponent {
     return (
       <React.Fragment>
         <h1>FlickrSearch</h1>
-        <SearchForm onSubmit={ this.fetchImages }/>
-        <Gallery />
+        <SearchForm onSubmit={ this.fetchImages } />
+        <Gallery images={ this.state.images } />
       </React.Fragment>
     );
   }
@@ -78,12 +78,18 @@ class SearchForm extends PureComponent {
   }
 }
 
-class Gallery extends PureComponent {
-  render() {
-    return (
-      <h2>Gallery coming soon</h2>
-    )
-  }
+function Gallery ( props ) {
+  return (
+    <div>
+      { props.images.map( ( imageURL ) => <Image url={ imageURL } key={ imageURL } /> ) }
+    </div>
+  );
+}
+
+function Image ( props ) {
+  return (
+    <img src={ props.url } width="150" height="150" alt={ props.url } />
+  );
 }
 
 export default FlickrSearch;
