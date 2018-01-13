@@ -90,6 +90,13 @@ class SinglyLinkedList
   end
 
   def each
+    # traverse through list
+    node = @head
+    while node
+      # perform action on node
+      yield(node.value)
+      node = node.next
+    end
   end
 
   # Also: .map, .inject, etc
