@@ -95,7 +95,7 @@ class SinglyLinkedList
     node = @head
     while node
       # perform action on node
-      yield(node.value)
+      yield node.value if block_given?
       node = node.next
     end
   end
