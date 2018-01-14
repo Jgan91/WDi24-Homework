@@ -3,22 +3,29 @@
 const flickrURL = 'https://api.flickr.com/services/rest/?jsoncallback=?';
 let pageNum = 1;
 let query;
+let lastPage = false;
 
 const searchFlickr = function (term) {
+  if ( lastPage ) { return; }
+
   console.log( `Searching Flickr for ${ term }` );
   // Fetch images from Flickr using Ajax
   $.getJSON(flickrURL, {
     method: "flickr.photos.search",
     api_key: "2f5ac274ecfac5a455f38745704ad084",
     text: term , // what we're actually searching for
-    page: pageNum,
+    page: pageNum++,
     format: "json" })  // flickr's api is old, gives xml by default
   .done(showImages)
-  .done(pageNum++);
 };
 
 const showImages = function (results) {
   console.log( results );
+
+  if (results.photos.page >= results.photos.pages) {
+    lastPage = true;
+    $('#loading').addClass('hidden');
+  }
   _(results.photos.photo).each(function (photoInfo) {
     // create a new image tag, set source
     const photoURL = generateURL(photoInfo, 'q'); // q = 150px square
@@ -52,11 +59,12 @@ $(document).ready(function () {
   // ON SUBMIT
   $('#search').on('submit', function (e) {
     e.preventDefault();
-    $('.hidden').removeClass('hidden');
+    $('#loading').removeClass('hidden');
     // Clear previous images
     $('#images').empty();
     // Reset page number
     pageNum = 1;
+    lastPage = false;
     query = $('#query').val();
     searchFlickr( query );
   });
@@ -66,7 +74,7 @@ $(document).ready(function () {
     if (scrollBottom > 500) {
       return; // don't do anything until we are within 600px of bottom of page; n.b could pick any number, 600 not nec ideal
     }
-    console.log( 'nearing the bottom' );
+    // console.log( 'nearing the bottom' );
     searchFlickr( query );
   },
   700 ));
