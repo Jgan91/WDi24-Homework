@@ -65,7 +65,8 @@ class SinglyLinkedList
   def length # AKA .count, .size
     count = 0
     node = @head
-    if node then count += 1 end
+    count += 1 unless node.nil?
+    # if node then count += 1 end
     while node and node.next
       count += 1
       node = node.next
@@ -102,6 +103,33 @@ class SinglyLinkedList
   # Also: .map, .inject, etc
 
   # Bonus: at_index => []
+  def at_index index
+    # p length, index
+    unless index >= length
+      current_index = 0
+      node = @head
+      until current_index == index
+        p current_index, index
+        node = node.next
+        current_index += 1
+      end
+    end
+    node.value unless node.nil?
+  end
+
+  def [] index
+    # convert to syntactic sugar
+    unless index >= length
+      current_index = 0
+      node = @head
+      until current_index == index
+        node = node.next
+        current_index += 1
+      end
+    end
+    # return value at_index
+    node.value unless node.nil?
+  end
 end
 
 bros = SinglyLinkedList.new 'groucho'
